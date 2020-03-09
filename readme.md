@@ -39,14 +39,32 @@ Data | Conteúdo
 12.03.20 | Avaliação de sistemas de RI, Indexação e busca
 13.03.20 | **Prova Escrita (PE)**
 16.03.20 | **Entrega do Trabalho Prático (TP)**, Aprendizagem de máquina em recuperação da informação, métodos superviosionados e nao-supervisionados, mineração de Texto e introdução ao processamento de linguagem natural
-17.03.20 | Tópicos atuais em recuperação da informação (big data, web  semântica e aplicações (uso do Apache Lucene, Apache SOLR, Elastice Search e Hadoop)
+17.03.20 | Tópicos atuais em recuperação da informação (big data, web  semântica e aplicações (uso do Apache Lucene, Apache Tike, Apache SOLR, Elastice Search e Hadoop)
 
 ### Referências
 
+#### Bibliografia Básica
+
+- BAEZA-YATES, R.; RIBEITO-NETO, B. Modern information retrieval. Addison Wesley, USA, 2010.
+
+- FERNEDA, E. Introdução aos Modelos Computacionais de Recuperação de Informação. Rio de Janeiro: Editora Ciência Moderna
+Ltda. 2012.
+
+#### Bibliografia Complementar
+
+- CROFT, B.; METZLER, D.; STROHMAN, T. Search Engines: Information Retrieval in Practice. Addison-Wesley, USA, 2009.
+
+- MANNING, C.; RAGHAVAN, P.; SCHUTZE, H. Introduction to information retrieval. Cambridge University Press, USA, 2008.
+
+
+#### Miscellaneous
+
+- Visualização: [Exemplos de K-means](http://tech.nitoyon.com/en/blog/2013/11/07/k-means/)
+- Video: [ROC e AUC](https://www.youtube.com/watch?v=xugjARegisk&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=6)
 
 ---
 
 ## Documentos para Disciplina
 
-- Trabalho Prático
-- Lista de Exercícios
+- [Trabalho Prático (PDF)](trabalho-imp.pdf)
+- [Lista de Exercícios (PDF)](lista-exercicios.pdf)
