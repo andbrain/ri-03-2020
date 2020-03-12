@@ -34,12 +34,12 @@ NF = (PE+TP) / 2
 Data | Conteúdo
 ------------ | -------------
 09.03.20 | Apresentação do plano de aula, metodologia, método de avaliação. Entrega da lista de exercícios e apresentação do trabalho prático. Introdução a recuperação de informação.
-10.03.20 | Princípios e Conceitos Básicos de RI, Implementação de uma máquina de busca
-11.03.20 | Modelos Clássicos de recuperação de informação, Criação do vocabulário
-12.03.20 | Avaliação de sistemas de RI, Indexação e busca
-13.03.20 | **Prova Escrita (PE)**
-16.03.20 | **Entrega do Trabalho Prático (TP)**, Aprendizagem de máquina em recuperação da informação, métodos superviosionados e nao-supervisionados, mineração de Texto e introdução ao processamento de linguagem natural
-17.03.20 | Tópicos atuais em recuperação da informação (big data, web  semântica e aplicações (uso do Apache Lucene, Apache Tike, Apache SOLR, Elastice Search e Hadoop)
+10.03.20 | Princípios e Conceitos Básicos de RI, Implementação de uma máquina de busca, Modelos Clássicos de recuperação de informação, Criação do vocabulário.
+11.03.20 | Exercício teorico-prático do indexador de uma máquina de busca
+12.03.20 | Exercício teorico-prático do processador de consultas de uma máquina de busca
+13.03.20 | Avaliação de sistemas de RI e resolução da lista de exercícios
+16.03.20 | **Prova Escrita (PE)**
+17.03.20 | Tópicos atuais em recuperação da informação (big data, web  semântica e aplicações (uso do Apache Lucene, Apache Tika, Apache SOLR, Elastice Search e Hadoop)
 
 ### Referências
 
