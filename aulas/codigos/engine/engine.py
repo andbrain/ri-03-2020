@@ -25,9 +25,31 @@ def calculaIdf(N):
         termIdf = round(math.log10(N/float(n)), 2)
         idf[term] = termIdf
 
+def calculaTfIdf(idTerm, term, listaInvertida):
+    for docId,freq in listaInvertida.items():
+        pesos = vecDoc[docId]
+        pesos[idTerm] = freq * idf[term]
+
+def printVetores(vetores):
+    for id, lista in vetores.items():
+        strPesos = "\t"
+        for peso in lista:
+            strPesos += " " + str(peso)
+        print (str(id) + strPesos)
+
 def calculaPesos(docs):
-    for doc in docs:
-        pass
+
+    # inicializa vetor de documentos
+    for id,doc in docs.items():
+        vecDoc[id] = [0] * len(vocabulario)
+
+
+    counter = 0 #identificacao do id dos termos na ordem do dicionario
+    for term,listaInvertida in vocabulario.items():
+        calculaTfIdf(counter, term, listaInvertida)
+        counter += 1
+
+    printVetores(vecDoc)
 
 def indexador():
     # colecao de documentos
