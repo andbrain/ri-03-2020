@@ -23,11 +23,7 @@ Aulas teórico-práticas: resolução e discussão de exemplos e exercícios de 
 
 ### Método de avaliação
 
-A avaliação terá dois componentes: Prova escrita (PE) e Trabalho Prático (TP). Ambos são classificados com valores de zero a dez. A nota final será a média das notas PE e TP.
-
-```
-NF = (PE+TP) / 2
-```
+A avaliação terá dois componentes: Prova escrita (PE) com nota de zero a dez.
 
 ### Cronograma de Atividades
 
