@@ -82,8 +82,59 @@ def indexador():
 ################################Processador de consultas###########################
 ###################################################################################
 ###################################################################################
+
+vocabularioQ = {}
+normaQ = 0
+
+def addTermQ(id,term):
+    if term in vocabularioQ: # verifica se o termo esta no vocabulario
+        listaInvertida = vocabularioQ[term] # se sim, recupera a lista invertida
+        if id in listaInvertida:           # verifica se o termo ja foi mencionado no mesmo documento
+            listaInvertida[id] += 1
+        else:                              # se nao tiver na lista invertida, adiciona o termo com frequencia 1
+            listaInvertida[id] = 1
+    else:
+        vocabularioQ[term] = {id:1}         # caso nao esteja no vocabulario, adiciona o termo e inicializa sua lista invertida
+
+def criaVocabularioQ(id, terms):
+    for term in terms:
+        addTermQ(id,term)
+
+def pegaPosicaoTerm(termQ):
+    counter = 0 #identificacao do id dos termos na ordem do dicionario
+    for term,listaInvertida in vocabulario.items():
+        if termQ == term:
+            return counter
+        counter += 1
+
 def processadorConsultas():
-    pass
+    #Passos para criar o processador de consultas:
+    #1. normalizar os termos
+    q = "to do"
+    q = q.lower()
+    q = q.translate(None, string.punctuation)
+    terms = q.split()
+    criaVocabularioQ(0,terms)
+
+    # #2. vetor da consulta (tamanho do vocabulario)
+    vecQ = [0] * len(vocabulario)
+
+    counter = 0 #identificacao do id dos termos na ordem do dicionario
+    for term,listaInvertida in vocabularioQ.items():
+        idfTerm = idf[term]
+        pos = pegaPosicaoTerm(term)
+        lista = vocabularioQ[term]
+        vecQ[pos] = lista[0] * idfTerm
+    print(vecQ)
+    #3. norma do vetor
+    acc = 0
+    for peso in vecQ:
+        acc += peso**2
+    normaQ = round(math.sqrt(acc),2)
+    print(normaQ)
+    
+    #4. calculo de similaridade entre consulta e documentos indexados
+    #5. ranking de similaridades
 
 def main():
     indexador()
