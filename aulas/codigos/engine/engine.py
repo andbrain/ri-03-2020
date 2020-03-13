@@ -125,15 +125,15 @@ def processadorConsultas():
         pos = pegaPosicaoTerm(term)
         lista = vocabularioQ[term]
         vecQ[pos] = lista[0] * idfTerm
-    print(vecQ)
+
     #3. norma do vetor
     acc = 0
     for peso in vecQ:
         acc += peso**2
     normaQ = round(math.sqrt(acc),2)
-    print(normaQ)
-    
+
     #4. calculo de similaridade entre consulta e documentos indexados
+
     #5. ranking de similaridades
 
 def main():
