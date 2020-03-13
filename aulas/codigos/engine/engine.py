@@ -4,6 +4,7 @@ import math
 vocabulario = {}
 idf = {}
 vecDoc = {}
+norma = {}
 
 def addTerm(id,term):
     if term in vocabulario: # verifica se o termo esta no vocabulario
@@ -49,7 +50,13 @@ def calculaPesos(docs):
         calculaTfIdf(counter, term, listaInvertida)
         counter += 1
 
-    printVetores(vecDoc)
+def calculaNormas():
+
+    for id,listaInv in vecDoc.items():
+        acc = 0
+        for peso in listaInv:
+            acc += peso**2
+        norma[id]=round(math.sqrt(acc),2)
 
 def indexador():
     # colecao de documentos
@@ -68,9 +75,19 @@ def indexador():
 
     calculaIdf(len(docs))
     calculaPesos(docs)
+    calculaNormas()
+
+###################################################################################
+###################################################################################
+################################Processador de consultas###########################
+###################################################################################
+###################################################################################
+def processadorConsultas():
+    pass
 
 def main():
     indexador()
+    processadorConsultas()
 
 if __name__ == '__main__':
     main()
