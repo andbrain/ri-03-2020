@@ -1,5 +1,6 @@
 import string
 import math
+import operator
 
 vocabulario = {}
 idf = {}
@@ -85,6 +86,7 @@ def indexador():
 
 vocabularioQ = {}
 normaQ = 0
+q = "to do"
 
 def addTermQ(id,term):
     if term in vocabularioQ: # verifica se o termo esta no vocabulario
@@ -107,10 +109,22 @@ def pegaPosicaoTerm(termQ):
             return counter
         counter += 1
 
+def produtoVetorial(vec1,vec2):
+    if(len(vec1) == len(vec2)):
+        tam = len(vec1)
+        acc = 0
+        for i in range(tam):
+            acc += vec1[i] * vec2[i]
+        return acc
+    else:
+        print("Tamanho dos vetores diferente")
+        exit(1)
+
 def processadorConsultas():
     #Passos para criar o processador de consultas:
     #1. normalizar os termos
-    q = "to do"
+    global normaQ
+    global q
     q = q.lower()
     q = q.translate(None, string.punctuation)
     terms = q.split()
@@ -132,9 +146,17 @@ def processadorConsultas():
         acc += peso**2
     normaQ = round(math.sqrt(acc),2)
 
+    sim = {}
     #4. calculo de similaridade entre consulta e documentos indexados
+    for id,vetorDoc in vecDoc.items():
+        valorProduto = produtoVetorial(vecQ,vetorDoc)
+        sim[id] = valorProduto / (normaQ*norma[id])
 
     #5. ranking de similaridades
+    sorted_sim = sorted(sim.items(), key=operator.itemgetter(1), reverse=True) # ornade o rankind de similaridades
+    print("******Ranking para consulta******")
+    for docId,s in sorted_sim:
+        print("Documento " + str(docId) + ": " + str(s))
 
 def main():
     indexador()
