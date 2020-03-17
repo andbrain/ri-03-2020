@@ -64,3 +64,18 @@ Ltda. 2012.
 
 - [Trabalho Prático (PDF)](trabalho-imp.pdf)
 - [Lista de Exercícios (PDF)](lista-exercicios.pdf)
+
+---
+
+## Notas
+
+Nome | Trabalho Prático | Prova | Exercício Complementar
+------------ | ------------- | ------------- | ------------- |
+Alan C. Redis                   | 10 | 5.0 |  |
+Andrew Nascimento Pinto         | 10 | 8.0 |  |
+Bergreen Marinho da Silva       | 10 | 4.0 |  |
+Carlos Wagner A. do Nascimento  | 10 | X |  |
+Leonardo Bezerra Cavalcante     | 10 | 8.0 |  |
+Noberto Pereira Dias            | 10 | 3.5 |  |
+Samily Coelho Soares            | 10 | 5.5 |  |
+Yan Mesquita Barbosa            | 10 | 8.0 |  |
