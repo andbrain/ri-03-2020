@@ -69,13 +69,13 @@ Ltda. 2012.
 
 ## Notas
 
-Nome | Trabalho Prático | Prova | Exercício Complementar
------------- | ------------- | ------------- | ------------- |
-Alan C. Redis                   | 10 | 5.0 |  |
-Andrew Nascimento Pinto         | 10 | 8.0 |  |
+Nome | Trabalho Prático | Prova | Exercício Complementar | Nota Final |
+------------ | ------------- | ------------- | ------------- | ------------- |
+Alan C. Redis                   | 10 | 5.0 | 0.6 | 7.25 |
+Andrew Nascimento Pinto         | 10 | 8.0 | 1.0 | 10 |
 Bergreen Marinho da Silva       | 10 | 4.0 |  |
-Carlos Wagner A. do Nascimento  | 10 | X |  |
-Leonardo Bezerra Cavalcante     | 10 | 8.0 |  |
-Noberto Pereira Dias            | 10 | 3.5 |  |
-Samily Coelho Soares            | 10 | 5.5 |  |
-Yan Mesquita Barbosa            | 10 | 8.0 |  |
+Carlos Wagner A. do Nascimento  | 10 | X   |  |
+Leonardo Bezerra Cavalcante     | 10 | 8.0 | 1.0 | 10 |
+Noberto Pereira Dias            | 10 | 3.5 | 0.85 | 7.75 |
+Samily Coelho Soares            | 10 | 5.5 | 0.70 | 8.75 |
+Yan Mesquita Barbosa            | 10 | 8.0 | 0.9 | 9.9 |
