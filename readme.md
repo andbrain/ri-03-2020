@@ -78,7 +78,7 @@ Nome | Trabalho Prático | Prova | Exercício Complementar | Nota Final |
 Alan C. Redis                   | 10 | 5.0 | 0.60 | 8.1 |
 Andrew Nascimento Pinto         | 10 | 8.0 | 1.00 | 10.0 |
 Bergreen Marinho da Silva       | 10 | 4.0 | 0.00 | 7.0 |
-Carlos Wagner A. do Nascimento  | 10 | ?   | 0.00 | 5.0 |
+Carlos Wagner A. do Nascimento  | 10 | 8.0 | 0.00 | 9.0 |
 Leonardo Bezerra Cavalcante     | 10 | 8.0 | 1.00 | 10.0 |
 Noberto Pereira Dias            | 10 | 3.5 | 0.85 | 7.6 |
 Samily Coelho Soares            | 10 | 5.5 | 0.70 | 8.6 |
