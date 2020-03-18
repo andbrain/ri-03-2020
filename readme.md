@@ -71,11 +71,11 @@ Ltda. 2012.
 
 Nome | Trabalho Prático | Prova | Exercício Complementar | Nota Final |
 ------------ | ------------- | ------------- | ------------- | ------------- |
-Alan C. Redis                   | 10 | 5.0 | 0.6 | 7.25 |
+Alan C. Redis                   | 10 | 5.0 | 0.6 | 8.1 |
 Andrew Nascimento Pinto         | 10 | 8.0 | 1.0 | 10 |
-Bergreen Marinho da Silva       | 10 | 4.0 |  |
-Carlos Wagner A. do Nascimento  | 10 | X   |  |
+Bergreen Marinho da Silva       | 10 | 4.0 | 0 | 7 |
+Carlos Wagner A. do Nascimento  | 10 | X   | 0 | |
 Leonardo Bezerra Cavalcante     | 10 | 8.0 | 1.0 | 10 |
-Noberto Pereira Dias            | 10 | 3.5 | 0.85 | 7.75 |
-Samily Coelho Soares            | 10 | 5.5 | 0.70 | 8.75 |
+Noberto Pereira Dias            | 10 | 3.5 | 0.85 | 7.6 |
+Samily Coelho Soares            | 10 | 5.5 | 0.70 | 8.45 |
 Yan Mesquita Barbosa            | 10 | 8.0 | 0.9 | 9.9 |
