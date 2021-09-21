@@ -70,16 +70,3 @@ Ltda. 2012.
 - [Lista de Exercícios (PDF)](lista-exercicios.pdf)
 
 ---
-
-## Notas
-
-Nome | Trabalho Prático | Prova | Exercício Complementar | Nota Final |
------------- | ------------- | ------------- | ------------- | ------------- |
-Alan C. Redis                   | 10 | 5.0 | 0.60 | 8.1 |
-Andrew Nascimento Pinto         | 10 | 8.0 | 1.00 | 10.0 |
-Bergreen Marinho da Silva       | 10 | 4.0 | 0.00 | 7.0 |
-Carlos Wagner A. do Nascimento  | 10 | 8.0 | 0.00 | 9.0 |
-Leonardo Bezerra Cavalcante     | 10 | 8.0 | 1.00 | 10.0 |
-Noberto Pereira Dias            | 10 | 3.5 | 0.85 | 7.6 |
-Samily Coelho Soares            | 10 | 5.5 | 0.70 | 8.6 |
-Yan Mesquita Barbosa            | 10 | 8.0 | 0.90 | 9.9 |
